@@ -1,10 +1,10 @@
 {
     "name": "eslint-config-lucideus",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "description": "ESLint shareable config for all Lucideus JS/TS Projects",
     "main": "index.js",
-    "repository": "https://bitbucket.org/lucideustech/safeweb/src/dev/eslint-config-lucideus",
-    "author": "Aneesh Relan <aneesh.r@lucideustech.com>",
+    "repository": "https://github.com/lucideus-repo/eslint-config-lucideus",
+    "author": "Aneesh Relan <aneesh.relan@gmail.com>",
     "license": "MIT",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^3.2.0",
