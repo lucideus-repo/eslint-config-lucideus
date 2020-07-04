@@ -1,0 +1,37 @@
+{
+    "name": "eslint-config-lucideus",
+    "version": "1.3.0",
+    "description": "ESLint shareable config for all Lucideus JS/TS Projects",
+    "main": "index.js",
+    "repository": "https://bitbucket.org/lucideustech/safeweb/src/dev/eslint-config-lucideus",
+    "author": "Aneesh Relan <aneesh.r@lucideustech.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^3.2.0",
+        "@typescript-eslint/parser": "^3.2.0",
+        "eslint": "^7.2.0",
+        "eslint-plugin-functional": "^3.0.1",
+        "eslint-plugin-import": "^2.21.2",
+        "eslint-plugin-no-param-reassign-allow-reduce": "^1.0.1",
+        "eslint-plugin-no-secrets": "^0.6.8",
+        "eslint-plugin-react": "^7.20.0",
+        "eslint-plugin-react-redux": "^3.0.3",
+        "eslint-plugin-security": "^1.4.0",
+        "eslint-plugin-sonarjs": "^0.5.0",
+        "typescript": "^3.5.1"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^3.2.0",
+        "@typescript-eslint/parser": "^3.2.0",
+        "eslint": "^7.2.0",
+        "eslint-plugin-functional": "^3.0.1",
+        "eslint-plugin-import": "^2.21.2",
+        "eslint-plugin-no-param-reassign-allow-reduce": "^1.0.1",
+        "eslint-plugin-no-secrets": "^0.6.8",
+        "eslint-plugin-react": "^7.20.0",
+        "eslint-plugin-react-redux": "^3.0.3",
+        "eslint-plugin-security": "^1.4.0",
+        "eslint-plugin-sonarjs": "^0.5.0",
+        "typescript": "^3.5.1"
+    }
+}

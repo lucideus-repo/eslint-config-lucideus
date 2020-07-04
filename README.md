@@ -1,1 +1,62 @@
 # eslint-config-lucideus
+
+[![npm version](https://badge.fury.io/js/eslint-config-lucideus.svg)](https://badge.fury.io/js/eslint-config-lucideus)
+
+This package provides Lucideus' .eslintrc as a shareable config
+
+## Installation
+
+```shell
+npx install-peerdeps --dev eslint-config-lucideus
+```
+
+- Confirm usage of `yarn`, if prompted
+
+## Usage
+
+Once you install the `eslint-config-lucideus` package and all its peer dependencies, you can start using all the rules by specifying it in your eslint config file within the `extends` section of your `.eslintrc.json` file
+
+```json
+{
+    "extends": ["eslint-config-lucideus"]
+}
+```
+
+### Setup in a React project
+
+React specific rules are added separately along with the base rules. You can simply include it within your project using the `eslint-config-lucideus/react` rule set within the `extends` section
+
+```json
+{
+    "extends": ["eslint-config-lucideus", "eslint-config-lucideus/react"]
+}
+```
+
+## Running the linter
+
+Add the following to your `package.json` within the `scripts` section to have an easy to use command:
+
+```json
+{
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint -c .eslintrc.json --ext .ts --ext .js src"
+    }
+}
+```
+
+Now you can run, using `npm run lint` OR `yarn lint`
+
+## Integration with VS Code
+
+1. Install the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+2. If you're having multiple projects, add the following in your root `.vscode/settings.json`
+
+```json
+{
+"eslint.workingDirectories": [
+        { "directory": "project1", "changeProcessCWD": true },
+        { "directory": "project2", "changeProcessCWD": true },
+        { "directory": "project2", "changeProcessCWD": true }
+    ]
+}
+```
