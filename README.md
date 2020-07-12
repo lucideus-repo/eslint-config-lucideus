@@ -32,6 +32,16 @@ React specific rules are added separately along with the base rules. You can sim
 }
 ```
 
+### Setup in a AWS CDK project
+
+All typescript rules compatible with the AWS CDK structure have been added separately and can be integrated by using the following configuration
+
+```json
+{
+    "extends": ["eslint-config-lucideus", "eslint-config-lucideus/cdk"]
+}
+```
+
 ## Running the linter
 
 Add the following to your `package.json` within the `scripts` section to have an easy to use command:
@@ -39,7 +49,7 @@ Add the following to your `package.json` within the `scripts` section to have an
 ```json
 {
     "scripts": {
-        "lint": "./node_modules/.bin/eslint -c .eslintrc.json --ext .ts --ext .js src"
+        "lint": "./node_modules/.bin/eslint src"
     }
 }
 ```
