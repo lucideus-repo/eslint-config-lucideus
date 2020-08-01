@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lucideus",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "ESLint shareable config for all Lucideus JS/TS Projects",
   "main": "index.js",
   "repository": "https://github.com/lucideus-repo/eslint-config-lucideus",
