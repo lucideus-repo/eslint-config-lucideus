@@ -38,6 +38,44 @@ module.exports = {
                 unnamedComponents: "arrow-function"
             }
         ],
+        "@typescript-eslint/naming-convention": [
+            "error",
+            {
+                selector: "default",
+                format: ["camelCase"]
+            },
+            {
+                selector: "variable",
+                types: ["boolean"],
+                format: ["PascalCase"],
+                prefix: ["is", "should", "has", "can", "did", "will"]
+            },
+            {
+                selector: "variable",
+                format: ["camelCase", "UPPER_CASE", "PascalCase"]
+            },
+            {
+                selector: "property",
+                format: ["camelCase", "UPPER_CASE", "PascalCase"]
+            },
+            {
+                selector: "parameter",
+                format: ["camelCase", "PascalCase"],
+                leadingUnderscore: "allow"
+            },
+            {
+                selector: "typeLike",
+                format: ["PascalCase"]
+            },
+            {
+                selector: "interface",
+                format: ["PascalCase"],
+                custom: {
+                    regex: "^I[A-Z]",
+                    match: false
+                }
+            }
+        ],
         "react/no-children-prop": "off"
     }
 };
