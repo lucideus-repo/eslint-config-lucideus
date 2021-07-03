@@ -52,7 +52,7 @@ Rules specific to tests written in React are added separately and can be integra
 }
 ```
 
-*Note*: For the above rules to apply, make sure you have enabled linting in for test files/folder
+*Note*: For the above rules to apply, make sure you have enabled linting in for test files/folder.
 
 ## Running the linter
 

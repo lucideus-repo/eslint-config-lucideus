@@ -4,7 +4,7 @@ module.exports = {
         {
             "files": [
                 "**/tests/**/*.[jt]s?(x)",
-                "**/?(*.)+(spec|test).[jt]s?(x)"
+                "**/?(*.)+(test).[jt]s?(x)"
             ],
             "extends": ["plugin:testing-library/react"],
             "rules": {
