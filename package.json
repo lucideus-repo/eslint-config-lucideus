@@ -18,6 +18,7 @@
     "eslint-plugin-react-redux": "^3.0.3",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-testing-library": "^4.6.0",
     "typescript": "^3.9.7"
   },
   "peerDependencies": {
@@ -31,7 +32,8 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-redux": "^3.0.3",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-sonarjs": "^0.5.0"
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-testing-library": "^4.6.0"
   },
   "scripts": {
     "test": "node test/test.js"
