@@ -52,7 +52,7 @@ Rules specific to tests written in React are added separately and can be integra
 }
 ```
 
-*Note*: For the above rules to apply, make sure you have enabled linting in for test files/folder.
+*Note*: For the above rules to apply, make sure you have NOT added your test files in the eslint ignore patterns inside `.eslintignore` and/or `ignorePatterns` property in `.eslintrc.json`.
 
 ## Running the linter
 
