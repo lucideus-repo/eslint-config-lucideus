@@ -42,6 +42,18 @@ All typescript rules compatible with the AWS CDK structure have been added separ
 }
 ```
 
+### Setup for React tests
+
+Rules specific to tests written in React are added separately and can be integrated by using the following configurations. 
+
+```json
+{
+    "extends": ["eslint-config-lucideus", "eslint-config-lucideus/react-tests"]
+}
+```
+
+*Note*: For the above rules to apply, make sure you have NOT added your test files in the eslint ignore patterns inside `.eslintignore` and/or `ignorePatterns` property in `.eslintrc.json`.
+
 ## Running the linter
 
 Add the following to your `package.json` within the `scripts` section to have an easy to use command:
